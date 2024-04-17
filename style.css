@@ -1,0 +1,20 @@
+.kartya {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .kep1 {
+    width: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    .kep2 {
+      width: 33.33%;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .kep3 {
+      width: 20%;
+    }
+  }
